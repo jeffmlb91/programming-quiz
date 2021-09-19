@@ -25,14 +25,30 @@
       <h4>3. You can't Skip questions</h4>
 
       <di id="button">
+        <button class="Not Ready">Not Ready</button>
         <button id="start-quiz">Start QUiz</button>
       </di>
     </section>
     <!--This section will describe the quiz section for the game-->
     <section id="quiz">
       <div id="timer">
-        <h6>Time remaining</h6>
+        <h6>Time remaining:</h6>
         <h6 id="time">0</h6>
+      </div>
+
+      <!--Questions-->
+      <div id="question">
+        <h2 id="questionNo">1.</h2>
+        <h2 id="questionText">What does HTML stands for</h2>
+      </div>
+
+      <div id="answerList">
+        <h4 class="questionChoice" id="answer1">
+          HyperLinks and Text Markup Language
+        </h4>
+        <h4 class="questionChoice" id="answer2">Hyper Text Markup Language</h4>
+        <h4 class="questionChoice" id="answer3">Hyper Text Market Language</h4>
+        <h4 class="questionChoice" id="answer4">Hyper Text Marking Language</h4>
       </div>
     </section>
     <script src="./script.js"></script>
