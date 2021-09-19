@@ -4,11 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Programming game</title>
   </head>
   <body>
-    <h1>Hello world</h1>
-    <script src="./index.js"></script>
+    <!--The start section which gives the basic instructions of the game-->
+    <section id="instruction">
+      <h2>Programing Quiz</h2>
+      <h4>1. Try answering all the questions within 60 seconds</h4>
+      <h4>
+        2. If you get a question wrong 15 seconds will be deducted from the
+        timer
+      </h4>
+      <h4>3. You can't Skip questions</h4>
+
+      <di id="button">
+        <button id="start-quiz">Start QUiz</button>
+      </di>
+    </section>
+    <!--This section will describe the quiz section for the game-->
+    <section id="quiz">
+      <div id="timer">
+        <h6>Time remaining</h6>
+        <h6 id="time">0</h6>
+      </div>
+    </section>
+    <script src="./script.js"></script>
   </body>
 </html>

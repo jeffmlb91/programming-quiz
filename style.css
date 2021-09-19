@@ -1,0 +1,47 @@
+/*CSS reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Styling the body*/
+body {
+  display: grid;
+  justify-content: center;
+
+  height: 100vh;
+  background: wheat;
+}
+/* Styling the container of the instructions */
+#container {
+  height: auto;
+  width: auto;
+}
+#instruction,
+#quiz {
+  height: auto;
+  width: 580px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #b0c4d8;
+}
+#instruction h2 {
+  font-size: 60px;
+  color: #ff5235;
+}
+#instruction h4 {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+#button #start-quiz {
+  height: 50px;
+  width: 100%;
+}
+#quiz {
+  display: block;
+  height: 480px;
+  position: relative;
+}
