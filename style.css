@@ -17,14 +17,30 @@ body {
   height: auto;
   width: auto;
 }
-#instruction,
-#quiz {
+#instruction, #quiz{
   height: auto;
   width: 580px;
   padding: 20px;
   background: white;
   border: 1px solid #b0c4d8;
+  display: block;
+}
+#quiz {
+    height: auto;
+    width: 580px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #b0c4d8;
+    display: none
+}
+#result {
+    height: auto;
+  width: 580px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #b0c4d8;
   display: none;
+  
 }
 #instruction h2 {
   font-size: 60px;
@@ -68,6 +84,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: absolute;
+  padding-right: 5px;
 }
 #quiz #timer h6 {
   font-size: 22px;
@@ -109,4 +126,29 @@ body {
 }
 #quiz #answerList h4:hover {
   background: rgb(154, 154, 223);
+}
+/*Final result
+#result {
+  height: 500px;
+  width: 450px;
+  padding: 20px;
+  background-color: #e7f1fa;
+  border-radius: 0px;
+  border: 1px solid #b0c4d8;
+  overflow: hidden;
+  position: relative;
+}
+#result #score {
+  font-size: 180px;
+  color: #ff5235;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+}
+#result #score h4 {
+  height: 40px;
+  width: 87%;
+  font-size: 25px;
+  position: absolute;
+  text-align: center;
 }
